@@ -28,7 +28,7 @@ const Footer = () => {
             <Title text1={'Nearby Cities In'} text2={' Bangalore'} />
           </div>
 
-          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 text-xl'>
+          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 text-sm'>
             <div className='flex gap-1 cursor-pointer font-semibold mb-2'>
               <IoLocation />
               <a href="" className=' text-white'>Mumbai</a>
@@ -76,7 +76,7 @@ const Footer = () => {
          viewport={{once:true}}
          >
           {/*<p className=' text-xl font-medium mb-5'>❌❌Bangalore Hubs❌❌</p>*/}
-          <ul className=' flex flex-col gap-1 text-white cursor-pointer font-bold text-xl '>
+          <ul className=' flex flex-col gap-1 text-white cursor-pointer font-bold text-sm '>
             <a href="/"><li>HOME</li></a>
             <a href="/all-profile"><li>PROFILE</li></a>
             <a href="/about"><li>ABOUT US</li></a>
@@ -90,8 +90,8 @@ const Footer = () => {
           whileInView={{opacity:1,y:0}}
           viewport={{once:true}}
          >
-          <p className=' text-2xl font-medium mb-5 underline text-white'>GET IN TOUCH</p>
-          <u className=' flex flex-col gap-1 text-gray-400 cursor-pointer mb-5 text-xl'>
+          <p className=' text-xl font-medium mb-5 underline text-white'>GET IN TOUCH</p>
+          <u className=' flex flex-col gap-1 text-gray-400 cursor-pointer mb-5 text-sm'>
             <Link to=''>+91 435785475348</Link>
             <a href="">hshdfe@gmail.com</a>
           </u>

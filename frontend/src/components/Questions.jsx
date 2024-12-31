@@ -1,10 +1,16 @@
 import React from 'react'
 import Title from './Title'
 import { assets } from '../assets/assets'
+import { motion } from 'framer-motion'
 
 const Questions = () => {
   return (
-    <div className='bg-gradient-to-b from-black to-black'>
+    <motion.div className='bg-gradient-to-b from-black to-black'
+        initial={{opacity:0.2, y:100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,y:0}}
+        viewport={{once:true}}
+     >
       {/*style={{backgroundImage: `url(${assets.bg_image})`,
        backgroundSize: 'cover',
        backgroundPosition: 'center',
@@ -82,7 +88,7 @@ const Questions = () => {
         <p className=' text-white'><span className=' text-red-700 text-xl mr-2'>Ans:</span>You are welcomes to pay us in any currency.</p>
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

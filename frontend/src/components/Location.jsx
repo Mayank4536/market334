@@ -2,10 +2,16 @@ import React from 'react'
 import Title from './Title'
 import { IoLocation } from 'react-icons/io5'
 import { assets } from '../assets/assets'
+import { motion } from 'framer-motion'
 
 const Location = () => {
   return (
-    <div className='bg-gradient-to-b from-white to-black'>
+    <motion.div className='bg-gradient-to-b from-white to-black'
+        initial={{opacity:0.2, y:100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,y:0}}
+        viewport={{once:true}}
+     >
       {/*style={{backgroundImage: `url(${assets.image14})`,
        backgroundSize: 'cover',
        backgroundPosition: 'center',
@@ -95,7 +101,7 @@ const Location = () => {
           </div>
         </div>  
         
-    </div>
+    </motion.div>
   )
 }
 

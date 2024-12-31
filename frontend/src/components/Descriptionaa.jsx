@@ -12,7 +12,7 @@ const Descriptionaa = () => {
         viewport={{once:true}}
         >
         <Title text1={'Call Girls in Bengaluru'} text2={'₹4000 Free DoorStep Delivery'} />
-        <p className=' m-auto text-sm sm:text-sm md:text-base text-red-800 ' style={{color: ""}}>
+        <p className=' m-auto text-sm sm:text-sm md:text-base text-red-700 ' style={{color: ""}}>
           Welcome to Bengalore no.1 call girls agency, where attractive, intelligent, and well-educated girls  give men the best erotic
           experience they desire. In Bangalore, We are accessible for outcall service. see <a href=''><u style={{color: "red"}}>Bangalore Call Girls</u></a> up close. you'll get the 
           greatest girls you've chosen, along with opportunities for more deep french kisses and other experiences that will ensure your complete fullfillment. professionals call girls and discreate
